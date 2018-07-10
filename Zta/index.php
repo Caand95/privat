@@ -15,11 +15,11 @@
 			<a href="?page=Forside">
 				<img class="logo" src="pics/logo.png">
 			</a>
-
+<!--
 			<div class="banner-info">
 				<h5 class="contact">Tlf: 20 62 63 35<br>Mail: <a href="mailto:text@text.text">JohnDoe@example.org</a></h5>
 			</div>
-
+-->
 		</section>
 
 	<!--MenuBar-->
