@@ -1,19 +1,18 @@
 <html>
 	<head>
-		<title>CroudTech.org</title>
+		<title>Zoneterapi v/Lisbeth Andersen</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="scripts/css/niceness.css">
 
 		<?php //<script type="text/javascript">ScreenInfo();</script> ?>
 
 	</head>
-
-	<body id="b0dy">
+<body>
 
 	<!-- Banner -->
 		<section class="banner">
 			<a href="?page=Forside">
-				<img class="logo" src="pics/logo.png">
+				<img class="logo" src="pics/logo.png" />
 			</a>
 <!--
 			<div class="banner-info">
@@ -29,12 +28,14 @@
 			?>
 		</section>
 
+<div id="b0dy">
 	<!--Main-->
 		<section class="main">
 			<?php
 				include "main.php";
 			?>
 		</section>
+</div>
 
 	<!--Footer-->
 		<footer>

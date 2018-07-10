@@ -1,11 +1,14 @@
 body {
 	text-align: center;
 	background-color: #d0d6dd;
+	width: 1104px;
+	margin: 0 auto;
+
 }
 #b0dy{
 	text-align: left;
-	width: 920px;
-	margin: 0 auto;
+	width: 910px;
+	margin: 0 5px;
 }
 a {
 	color: darkslategray;
@@ -24,9 +27,11 @@ a {
 }
 
 .banner{
-	width: 920px;
+	width: inherit;
 	height: 150px;
 	display:inline-block;
+	background: url('../../Pics/JingJang.jpg');
+
 }
 .banner-info {
 	float:right;
@@ -34,17 +39,18 @@ a {
 }
 .banner-info h5{
 	margin-top:35px;
-	margin-bottom: 35px;
+	margin-bottom:35px;
 	font-size: 20px;
 }
 .logo {
-	height: 150px;
+	height: 75px;
+
 	float:left;
 }
 
 
 .menubar {
-	width: 920px;
+	width: inherit;
 	min-width: 100%;
 	display: flex;
  	box-shadow: 0px 6px 7.5px -8px black;
