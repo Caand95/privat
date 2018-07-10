@@ -1,0 +1,139 @@
+body {
+	text-align: center;
+	background-color: #d0d6dd;
+}
+#b0dy{
+	text-align: left;
+	width: 920px;
+	margin: 0 auto;
+}
+a {
+	color: darkslategray;
+	text-decoration: none;
+}
+:focus a{
+	outline: none;
+	color: darkslategray;
+	text-decoration: none;
+
+}
+:visited a{
+	color: darkslategray;
+	text-decoration: none;
+
+}
+
+.banner{
+	width: 920px;
+	height: 150px;
+	display:inline-block;
+}
+.banner-info {
+	float:right;
+	height:inherit;
+}
+.banner-info h5{
+	margin-top:35px;
+	margin-bottom: 35px;
+	font-size: 20px;
+}
+.logo {
+	height: 150px;
+	float:left;
+}
+
+
+.menubar {
+	width: 920px;
+	min-width: 100%;
+	display: flex;
+ 	box-shadow: 0px 6px 7.5px -8px black;
+	background:#f0f8ff;
+	border-radius: 0px 0px 7px 7px;
+
+}
+.menubar-item {
+	border: none;
+	padding: 8px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	background:#f0f8ff;
+	color: darkslategray;
+
+}
+.menubar-item:focus {
+	outline:none;
+	color: darkslategray;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+	width:184px;
+	text-align: center;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f0f8ff;
+	box-shadow: 0px 6px 7.5px -8px black;
+	padding: 8px 0px;
+	z-index: 1;
+	border:5px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius:0px 0px 7px 7px;
+	top:27px;
+}
+.dropdown-content a{
+	padding: 5px 0px 5px 0px;
+	font-size:14px;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover a{
+	display:block;
+	width: 184px;
+}
+
+
+.main {
+	width: 100%;
+	min-height: 60%;
+
+}
+.btn {
+	border: none;
+	border-radius: 7px;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background:#f0f8ff;
+	color: darkslategray;
+}
+.kontaktbtn {
+	top:0px;
+}
+.breadcrums{
+	font-size: 14px;
+    margin: 5px;
+}
+
+h1 {
+	margin: 10px 0px 10px 0px;
+}
+h5 {
+	font-size: 14px;
+	margin:0px;
+	font-weight: normal;
+	width: auto;
+	margin:auto;
+}
+.radio{
+	display:inline-block;
+}
