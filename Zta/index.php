@@ -3,21 +3,26 @@
 		<title>CroudTech.org</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="scripts/css/niceness.css">
+
 		<?php //<script type="text/javascript">ScreenInfo();</script> ?>
+
 	</head>
 
 	<body id="b0dy">
-	<!-- banner -->
+
+	<!-- Banner -->
 		<section class="banner">
 			<a href="?page=Forside">
 				<img class="logo" src="pics/logo.png">
 			</a>
-			<section class="banner-info">
+
+			<div class="banner-info">
 				<h5 class="contact">Tlf: 20 62 63 35<br>Mail: <a href="mailto:text@text.text">JohnDoe@example.org</a></h5>
-			</section>
+			</div>
+
 		</section>
 
-	<!--Menu-->
+	<!--MenuBar-->
 		<section class="menubar">
 			<?php
 				include "menu.php";
@@ -33,6 +38,8 @@
 
 	<!--Footer-->
 		<footer>
+
 		</footer>
+
 	</body>
 </html>
