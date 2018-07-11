@@ -1,79 +1,75 @@
 body {
 	text-align: center;
-	background-color: #d0d6dd;
-	width: 1104px;
+	background-color: #F4FEFE;
+	width: auto;
 	margin: 0 auto;
 
 }
-#b0dy{
-	text-align: left;
-	width: 910px;
-	margin: 0 5px;
+/*Header*/
+.header{
+	max-width: 1700px;
+	margin: 0 auto;
+	display:flex;
 }
-
-.banner{
-	width: inherit;
-	height: 215px;
-	display: inline-block;
-	background: url("../../Pics/vinbolomster.jpg");
-	background-position-y: -884px;
-	background-size: 1103px;
-	background-repeat: no-repeat;
-}
-.banner-info {
+.headermenu{
+	height:inherit;
 	float:right;
+	margin: auto 1% auto auto;
+	font-size: 20px;
+	display:flex;
 	height:inherit;
 }
-.banner-info h5{
-	margin-top:35px;
-	margin-bottom:35px;
-	font-size: 20px;
-}
-.logo {
-	height: 55px;
-	float:left;
-}
-
-.logo-text{
-font-family: Open Sans,One Open Sans,Helvetica Neue,Helvetica,sans-serif;
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-text-decoration: none;
-text-shadow: none;
-color: #838b94;
-}
-
-.menubar {
-	width: inherit;
-	min-width: 100%;
-	display: flex;
- 	box-shadow: 0px 6px 7.5px -8px black;
-	background:#f0f8ff;
-	border-radius: 0px 0px 7px 7px;
-
-}
-.menubar-item {
+.headermenu-item {
 	border: none;
 	padding: 8px 0px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-weight:600;
+	font-size: 20px;
 	cursor: pointer;
-	background:#f0f8ff;
+	background:inherit;
 	color: darkslategray;
-
 }
-.menubar-item:focus {
+.headermenu-item:focus {
 	outline:none;
 	color: darkslategray;
 }
-
+.logo {
+	height: 140px;
+	padding: 15px 25px;
+	float:left;
+}
+.logo-text{
+font-family: Open Sans,One Open Sans,Helvetica Neue,Helvetica,sans-serif;
+font-size: 30px;
+font-weight: 700;
+font-style: normal;
+text-decoration: none;
+text-shadow: none;
+color: #838b94;
+text-align: left;
+padding: 60px 0;
+display:flex;
+}
+.divider{
+		display: flex;
+    font-size: 26px;
+    padding: 0px 0px;
+    height: 39px;
+    text-align: center;
+    position: relative;
+		align-self: center;
+	}
 .dropdown {
     position: relative;
     display: inline-block;
-	text-align: center;
+		text-align: center;
+		width: auto;
+		margin:0 5;
+		min-width: 100px;
+		align-self: center;
+		min-height: 50px
 }
 .dropdown-content {
 	display: none;
@@ -88,6 +84,8 @@ color: #838b94;
 	cursor: pointer;
 	border-radius:0px 0px 7px 7px;
 	top:27px;
+	width:100%;
+	max-width:inherit;
 }
 .dropdown-content a{
 	padding: 5px 0px 5px 0px;
@@ -98,14 +96,14 @@ color: #838b94;
 }
 .dropdown:hover a{
 	display:block;
-	width: 184px;
+	width:auto;
 }
 
 .dropdowninfo{
 	display:block;
 	position: relative;
 	display: inline-block;
-width:184px;
+width:120;
 text-align: center;
 }
 .dropdowninfo-content{
@@ -123,6 +121,30 @@ text-align: center;
 	top:27px;
 	width: 184px;
 }
+/*Body*/
+#b0dy{
+	text-align: left;
+	max-width: 910px;
+	width:100%;
+	margin: 0 auto;
+}
+.banner{
+	min-width:inherit;
+	width: 100%;
+	margin: 0 auto;
+	height: 650px;
+	display: flex;
+	background: url('../../Pics/banner.jpg');
+	background-position-y: -5pc;
+	background-size: 120%;
+	background-position-x: 55%;
+	background-repeat: no-repeat;
+}
+#main{
+	margin-right: 5%;
+}
+
+/*Items*/
 .contact{
 	text-align: left;
 }

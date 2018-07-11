@@ -10,14 +10,14 @@
 <body>
 
 	<!-- Header -->
-		<header class="Header">
-			<a href="?page=Forside">
-				<img class="logo" src="pics/logo.png" />
-				<h5 class="logo-teskt">Zoneterapi<br /> v/Lisbeth Andersen</h5>
-			</a>
-			<div class="banner-info">
+		<header class="header">
+				<a href="?page=Forside">
+					<img class="logo" src="pics/logo65x65.png" />
+					<h5 class="logo-text">Zoneterapi v/Lisbeth Andersen</h5>
+				</a>
+				<section class="headermenu">
 				<?php include "menu.php"; ?>
-			</div>
+			</section>
 		</header>
 
 <!--banner?-->
@@ -25,7 +25,7 @@
 
 	</section>
 
-<div id="b0dy">
+	<div id="b0dy">
 
 
 	<!--Main-->
