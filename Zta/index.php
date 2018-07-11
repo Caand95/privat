@@ -9,26 +9,25 @@
 	</head>
 <body>
 
-	<!-- Banner -->
-		<section class="banner">
+	<!-- Header -->
+		<header class="Header">
 			<a href="?page=Forside">
 				<img class="logo" src="pics/logo.png" />
+				<h5 class="logo-teskt">Zoneterapi<br /> v/Lisbeth Andersen</h5>
 			</a>
-<!--
 			<div class="banner-info">
-				<h5 class="contact">Tlf: 20 62 63 35<br>Mail: <a href="mailto:text@text.text">JohnDoe@example.org</a></h5>
+				<?php include "menu.php"; ?>
 			</div>
--->
-		</section>
+		</header>
 
-	<!--MenuBar-->
-		<section class="menubar">
-			<?php
-				include "menu.php";
-			?>
-		</section>
+<!--banner?-->
+	<section class="banner">
+
+	</section>
 
 <div id="b0dy">
+
+
 	<!--Main-->
 		<section class="main">
 			<?php

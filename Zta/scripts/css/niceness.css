@@ -10,28 +10,15 @@ body {
 	width: 910px;
 	margin: 0 5px;
 }
-a {
-	color: darkslategray;
-	text-decoration: none;
-}
-:focus a{
-	outline: none;
-	color: darkslategray;
-	text-decoration: none;
-
-}
-:visited a{
-	color: darkslategray;
-	text-decoration: none;
-
-}
 
 .banner{
 	width: inherit;
-	height: 150px;
-	display:inline-block;
-	background: url('../../Pics/JingJang.jpg');
-
+	height: 215px;
+	display: inline-block;
+	background: url("../../Pics/vinbolomster.jpg");
+	background-position-y: -884px;
+	background-size: 1103px;
+	background-repeat: no-repeat;
 }
 .banner-info {
 	float:right;
@@ -43,11 +30,19 @@ a {
 	font-size: 20px;
 }
 .logo {
-	height: 75px;
-
+	height: 55px;
 	float:left;
 }
 
+.logo-text{
+font-family: Open Sans,One Open Sans,Helvetica Neue,Helvetica,sans-serif;
+font-size: 16px;
+font-weight: 700;
+font-style: normal;
+text-decoration: none;
+text-shadow: none;
+color: #838b94;
+}
 
 .menubar {
 	width: inherit;
@@ -74,10 +69,10 @@ a {
 	outline:none;
 	color: darkslategray;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
-	width:184px;
 	text-align: center;
 }
 .dropdown-content {
@@ -86,7 +81,7 @@ a {
 	background-color: #f0f8ff;
 	box-shadow: 0px 6px 7.5px -8px black;
 	padding: 8px 0px;
-	z-index: 1;
+	z-index: 2;
 	border:5px;
 	text-align: center;
 	text-decoration: none;
@@ -128,7 +123,6 @@ text-align: center;
 	top:27px;
 	width: 184px;
 }
-
 .contact{
 	text-align: left;
 }

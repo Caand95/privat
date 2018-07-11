@@ -1,10 +1,8 @@
 <!--Menu-->
 
 <!-- Item -->
-	<section class="dropdown">
-		<a href="?page=Forside">
-			<button class="menubar-item">Forside</button>
-		</a>
+	<section class="dropdown invisible">
+
 	</section>
 
 <!-- Item -->
@@ -53,23 +51,6 @@
 				</section>
 			</section>
 
-<!-- Item -->
-		<section class="dropdown dropdowninfo">
-				<button class="menubar-item">Testinfo</button>
-			<section class="dropdowninfo-content">
-				<img></img>
-				<h4>De hurtige</h4>
-				<p></p>
-				<h4>Sociale medier</h4>
-				<p></p>
-				<h4>Kontakt</h4>
-				<p class="contact">
-					Tlf: 20 62 63 35
-					<br>
-					Mail: <a href="mailto:text@text.text">JohnDoe@example.org</a>
-				</p>
-			</section>
-		</section>
 
 		<!-- Item -->
 <!--		<section class="dropdown"> -->
