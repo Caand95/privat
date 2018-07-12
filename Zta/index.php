@@ -11,12 +11,18 @@
 
 	<!-- Header -->
 		<header class="header">
+			<section class="headerleft">
 				<a href="?page=Forside">
 					<img class="logo" src="pics/logo65x65.png" />
+
 					<h5 class="logo-text">Zoneterapi v/Lisbeth Andersen</h5>
 				</a>
+			</section>
+			<section class="headerright">
+				<?php include "widget/certificates.php" ?>
 				<section class="headermenu">
-				<?php include "menu.php"; ?>
+					<?php include "menu.php"; ?>
+				</section>
 			</section>
 		</header>
 
