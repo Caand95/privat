@@ -5,7 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="scripts/css/niceness.css">
 
 <!-- font family -->
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 		<?php //<script type="text/javascript">ScreenInfo();</script> ?>
 
 	</head>
@@ -17,7 +18,7 @@
 				<a href="?page=Forside">
 					<img class="logo <?php if(!isset($_GET["page"]) || (isset($_GET["page"]) && $_GET["page"] == "Forside")){echo"logo-front";} ?>" src="pics/logo65x65.png" />
 
-					<h5 class="logo-text">Zoneterapi v/Lisbeth Andersen</h5>
+					<h5 class="logo-text">Zoneterapi v/ Lisbeth Andersen</h5>
 				</a>
 			</section>
 			<section class="headerright">
