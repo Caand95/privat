@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="scripts/css/niceness.css">
 
+<!-- font family -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
 		<?php //<script type="text/javascript">ScreenInfo();</script> ?>
 
 	</head>
