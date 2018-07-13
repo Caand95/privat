@@ -212,14 +212,14 @@ width: 85%;
 
 .oneby1-front {
     height: 60px;
-    max-width: 60px;
+    max-width: 100%px;
     display: flex;
     float: right;
 		padding-left: 1%;
 	}
 	.oneby1{
 		height: 40px;
-max-width: 60px;
+max-width: 100%;
 display: flex;
 float: right;
 padding-left: 1%;
