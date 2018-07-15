@@ -23,9 +23,16 @@
 
 //Sidenav
 	if($NoFront != 0){
-		<div class="sidenav">
-		include "site/".$page."/index.php";
-		include "site/".$page."/".$subpage.".php";
+		echo"<div class="sidenav">";
 
 	}
+
+//Content
+if($NoFront != 0){
+	if($NoFront == 1){
+		include "site/".$page."/index.php";
+	} else {
+		include "site/".$page."/".$subpage.".php";
+	}
+}
 ?>
