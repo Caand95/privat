@@ -7,14 +7,14 @@
 
 <!-- Item -->
 	<section class="dropdown">
-		<a href="?page=Behandlingstyper">
+		<a href="?page=Behandlinger">
 			<button class="headermenu-item">Behandlinger</button>
 		</a>
 		<section class="dropdown-content">
-			<a href="?page=Behandlingstyper&subpage=Zoneterapi">Zoneterapi</a>
-			<a href="?page=Behandlingstyper&subpage=Massage">Massage</a>
-			<a href="?page=Behandlingstyper&subpage=øreakupunktur">Øreakupunktur</a>
-			<a href="?page=Behandlingstyper&subpage=Tanke felt terapi">TankeFeltTerapi</a>
+			<a href="?page=Behandlinger&subpage=Zoneterapi">Zoneterapi</a>
+			<a href="?page=Behandlinger&subpage=Massage">Massage</a>
+			<a href="?page=Behandlinger&subpage=øreakupunktur">Øreakupunktur</a>
+			<a href="?page=Behandlinger&subpage=Tanke felt terapi">TankeFeltTerapi</a>
 		</section>
 	</section>
 	<section class="divider">//</section>

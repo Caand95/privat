@@ -23,8 +23,15 @@
 
 //Sidenav
 	if($NoFront != 0){
-		echo"<div class="sidenav">";
-
+		echo "<div class=\"sidenav\"><h4>".$page."</h4>";
+		foreach (glob("site/Behandlinger/*.php") as $filename) {
+			$fn = explode(".", $filename)[0];
+			$fn = explode("/", $fn)[2];
+			if($fn != "index"){
+				echo "<a class=\"sidenav-item\" href='?page=".$page."&subpage=".$fn."'>".$fn."</a><br>";
+			}
+		}
+		echo"</div>";
 	}
 
 //Content

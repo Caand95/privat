@@ -2,11 +2,15 @@
 	<head>
 		<title>Zoneterapi v/Lisbeth Andersen</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="scripts/css/niceness.css">
 
-<!-- font family -->
-<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+		<!-- Css -->
+		<link rel="stylesheet" type="text/css" href="scripts/niceness.css">
+
+		<!-- font family -->
+		<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+
+		<!-- Javascript -->
 		<?php //<script type="text/javascript">ScreenInfo();</script> ?>
 
 	</head>
@@ -29,26 +33,28 @@
 			</section>
 		</header>
 
-<!--banner?-->
-	<section class="banner<?php if(!isset($_GET["page"]) || (isset($_GET["page"]) && $_GET["page"] == "Forside")){echo"-front";} ?>">
-
-	</section>
-	<?php
-	if(!isset($_GET["page"]) || (isset($_GET["page"]) && $_GET["page"] == "Forside")){
-	} else{
-
-echo '<div id="b0dy">
-			<!--Main-->
-			<section class="main">
-				';include "main.php";echo'
+		<!--banner?-->
+		<section class="banner<?php if(!isset($_GET["page"]) || (isset($_GET["page"]) && $_GET["page"] == "Forside")){echo"-front";} ?>">
+			
 		</section>
-</div>';
-}
-?>
+
+		<!-- Content -->
+		<?php
+			if(!isset($_GET["page"]) || (isset($_GET["page"]) && $_GET["page"] == "Forside")){
+
+			} else {
+				echo '<div id="b0dy">
+					<!--Main-->
+					<section class="main">
+					';
+				include "main.php";
+				echo '</section>
+					</div>';
+			}
+			?>
 
 	<!--Footer-->
 		<footer>
-
 		</footer>
 
 	</body>
